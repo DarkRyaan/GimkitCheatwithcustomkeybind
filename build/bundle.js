@@ -1565,7 +1565,7 @@
 	                c += h, i[++a] && (l = i[a].t);
 	            } let y = Array.from(new Uint8Array(o));
 	        y.unshift(4);
-	        return new Uint8Array(y).buffer 
+	        return new Uint8Array(y).buffer
 	    }(o)
 	}
 
@@ -2220,13 +2220,13 @@
 	                bytes.push(0xc4, length);
 	                size = 2;
 	            }
-	            else 
+	            else
 	            // bin 16
 	            if (length < 0x10000) {
 	                bytes.push(0xc5, length >> 8, length);
 	                size = 3;
 	            }
-	            else 
+	            else
 	            // bin 32
 	            if (length < 0x100000000) {
 	                bytes.push(0xc6, length >> 24, length >> 16, length >> 8, length);
@@ -3003,13 +3003,13 @@
 		                    bytes.push(0xc4, length);
 		                    size = 2;
 		                }
-		                else 
+		                else
 		                // bin 16
 		                if (length < 0x10000) {
 		                    bytes.push(0xc5, length >> 8, length);
 		                    size = 3;
 		                }
-		                else 
+		                else
 		                // bin 32
 		                if (length < 0x100000000) {
 		                    bytes.push(0xc6, length >> 24, length >> 16, length >> 8, length);
@@ -7707,7 +7707,7 @@
 		    Object.defineProperty(exports, '__esModule', { value: true });
 
 		}));
-		
+
 	} (colyseus, colyseus.exports));
 
 	var colyseusExports = colyseus.exports;
@@ -11113,7 +11113,7 @@
 		    exports.registerType = registerType;
 		    exports.type = type;
 
-		})); 
+		}));
 	} (umd, umd.exports));
 
 	var umdExports = umd.exports;
@@ -11207,7 +11207,7 @@
 		    return length + 1;
 		}
 		exports.utf8Length = utf8Length;
-		
+
 	} (Protocol));
 
 	class SchemaSerializer extends EventTarget {
@@ -11993,7 +11993,7 @@
 		};
 	}
 
-	// (47:39) 
+	// (47:39)
 	function create_if_block_3(ctx) {
 		let t;
 
